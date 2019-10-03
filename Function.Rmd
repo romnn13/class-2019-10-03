@@ -20,7 +20,7 @@ students
 ```
 
 ```{r}
-cold_call <-function(name) {
+cold_call <-function() {
   sample_n(students,1)
 }
 
